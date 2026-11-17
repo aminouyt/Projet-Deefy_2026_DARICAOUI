@@ -31,5 +31,3 @@
 ## Fonctionnalités non incluses dans le périmètre actuel
 
 - Protection CSRF des formulaires.
-- Déploiement sur le serveur Webetu.
-- Préparation du rendu oral ou de la présentation.
