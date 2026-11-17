@@ -2,7 +2,7 @@
 
 Application PHP de gestion de playlists et de podcasts réalisée dans le cadre du mini-projet Deefy.
 
-## Pré-requis
+## Pré-requis(si vous utilisez XAMPP en local) :
 
 - XAMPP avec Apache et MySQL démarrés ;
 - PHP avec l'extension `pdo_mysql` activée ;
@@ -14,11 +14,7 @@ Application PHP de gestion de playlists et de podcasts réalisée dans le cadre 
 2. Créer une base de données nommée `deefy`.
 3. Importer le fichier `data/deffy_db.sql` dans cette base avec phpMyAdmin.
 4. Vérifier la configuration dans `src/config/deefy.db.ini`.
-5. Installer les dépendances si nécessaire :
 
-```bash
-composer install
-```
 
 6. Ouvrir l'application dans le navigateur :
 
@@ -52,19 +48,8 @@ Le script SQL contient des comptes de test. Les mots de passe fournis par le suj
 
 Pour un usage réel, il est préférable de créer un nouveau compte.
 
-## Configuration MySQL
 
-Le fichier `src/config/deefy.db.ini` contient les paramètres de connexion locaux à MySQL :
 
-```ini
-driver = mysql
-host = localhost
-database = deefy
-username = root
-password =
-```
-
-Ce fichier ne doit pas être publié dans un dépôt public s'il contient un vrai mot de passe. Le fichier `src/config/deefy.db.ini.example` peut servir de modèle. Il faut copier ce modèle vers `deefy.db.ini`, puis adapter les valeurs à son installation.
 
 ## Documentation complémentaire
 
